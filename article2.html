@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dota 2</title>
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/articles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-banner clearfix">
+            <div class="float-left copyright">
+                <span class="cpy-item"><img src="./images/valve_white.png" alt="Valve logo"></span>
+                <span class="cpy-item"><img src="./images/steam_white.png" alt="Steam logo"></span>
+            </div>
+            <div class="float-right customer">
+                <span class="top-link"><a href="#">Support</a></span>
+                <span class="top-link"><a href="./login.html">Login</a></span>
+            </div>
+        </div>
+        <div id="stick-wrapper">
+			<div class="header" id="id-header">
+				<div class="main-head">
+					<div class="container relative">
+						<div class="row">
+							<div class="logo col-sm-4"><a href="#"><img src="./images/dota-logo.png" alt="Dota2 Logo"></a></div>
+							<div class="search-form form-inline col-sm-4"><i class="fa fa-search"></i> <input type="text" class="form-control"></div>
+							<div class="playnow-btn col-sm-4"><a href="./download.html"><img src="./images/getdota.jpg" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-nav menu">
+					<div class="container">
+						<ul>
+							<li><a href="./index.html">News</a></li>
+							<li><a href="">Store</a></li>
+							<li><a href="">Heropedia</a></li>
+							<li><a href="">Tournament</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="main">
+
+            <div class="article_container" id="Container_01">
+                <div class="Content">
+                    <video id="KeyArt" autoplay="" loop="" muted="">
+                        <source src="./gif/keyart.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+
+            <div class="article_container" id="Container_02">
+                <div class="Content NewBlock Center">
+                    <h1 class="PrizePool">$6,959,977</h1>
+                    <h2 class="PrizePool">Current PrizePool</h2>
+                    <p class="PrizePool">The International Battle Pass is here to tap into the heart of the Dota summer season. Packed full of exclusive features and rewards, the Battle Pass is sure to unearth a hoard of treasures for your stash as we approach the culmination of this year's Dota Pro Circuit and the climactic showdown in Vancouver
+                    <p class="PrizePool"></p>
+                </div>
+            </div>
+
+            <div class="article_container" id="Container_03">
+                <div class = "Content NewBlock Center">
+                    <h1 class="Gold Big">News for 2018</h1>
+                </div>
+            </div>
+
+            <div class="article_container" id="Container_04">
+                <div class="Content NewBlock Center">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                Group 13 - TKDH
+            </div>
+        </div>
+    </div>
+	<script>
+	
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("id-header");
+	var defHeight = header.offsetHeight;
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		header.classList.add("sticky");
+		var wrapper = document.getElementById("stick-wrapper").setAttribute("style","height:"+defHeight+"px;");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+	</script>
+</body>
+</html>

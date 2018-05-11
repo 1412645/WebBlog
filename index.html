@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dota 2</title>
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-banner clearfix">
+            <div class="float-left copyright">
+                <span class="cpy-item"><img src="./images/valve_white.png" alt="Valve logo"></span>
+                <span class="cpy-item"><img src="./images/steam_white.png" alt="Steam logo"></span>
+            </div>
+            <div class="float-right customer">
+                <span class="top-link"><a href="#">Support</a></span>
+                <span class="top-link"><a href="./login.html">Login</a></span>
+            </div>
+        </div>
+		<div id="stick-wrapper">
+			<div class="header" id="id-header">
+				<div class="main-head">
+					<div class="container relative">
+						<div class="row">
+							<div class="logo col-sm-4"><a href="#"><img src="./images/dota-logo.png" alt="Dota2 Logo"></a></div>
+							<div class="search-form form-inline col-sm-4"><i class="fa fa-search"></i> <input type="text" class="form-control"></div>
+							<div class="playnow-btn col-sm-4"><a href="./download.html"><img src="./images/getdota.jpg" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-nav menu">
+					<div class="container">
+						<ul>
+							<li><a href="./index.html">News</a></li>
+							<li><a href="">Store</a></li>
+							<li><a href="">Heropedia</a></li>
+							<li><a href="">Tournament</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sub-nav menu">
+					<div class="container">
+						<ul>
+							<li><a href="">Updates</a></li>
+							<li><a href="">Changelogs</a></li>
+							<li><a href="">Events</a></li>
+							<li><a href="">Conpediums</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="main">
+            <div class="featured">
+                <div class="ft-banner" style="background: url('./images/pudge-arcana.jpg') center center;">
+                    <div class="container relative h-100">
+                        <div class="banner-caption">
+                            <div class="banner-title">
+                                The Feast of Abscession
+                            </div>
+                            <div class="banner-except">
+                                <p>With today’s update, the butcher’s got a whole new set of tools as the Pudge Arcana makes its grand debut.</p>
+                            </div>
+                            <div class="banner-readmore">
+                                <a href="">Click for more details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav">
+                        <span class="nav-prev"><i class="fa fa-4x fa-angle-left"></i></span>
+                        <span class="nav-next"><i class="fa fa-4x fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="left-col col-sm-9">
+                            <div class="post-list">
+                                <div class="post-item row">
+                                    <div class="post-thumb col-sm-4 align-self-center">
+                                        <img src="./images/ti8.png" alt="">
+                                    </div>
+                                    <div class="post-content col-sm-8">
+                                        <div class="post-caption">
+                                            <a href="./article2.html"><h3>The International 2018 tickets and vanue</h3></a>
+                                            <span class="post-meta">March 15, 2018 - Dota Team</span>
+                                        </div>
+                                        <div class="post-except"><p>For the first time ever, the battle for the Aegis of Champions will be waged on Canadian soil, as The International Dota 2 Championships invite the world’s top Dota teams to face off at Rogers Arena in Vancouver, British Columbia on Monday, August 20th through Saturday, August 25th.</p></div>
+                                    </div>
+                                </div>
+                                <div class="post-item row">
+                                    <div class="post-thumb col-sm-4 align-self-center">
+                                        <img src="./images/dotaplus.jpg" alt="">
+                                    </div>
+                                    <div class="post-content col-sm-8">
+                                        <div class="post-caption">
+                                            <a href="./article2.html"><h3>Introducing Dota Plus</h3></a>
+                                            <span class="post-meta">March 15, 2018 - Dota Team</span>
+                                        </div>
+                                        <div class="post-except"><p>Today’s update unveils Dota Plus, a new monthly subscription service designed to help you get the most out of every match you play.</p></div>
+                                    </div>
+                                </div>
+                                <div class="post-item">
+                                    <div class="post-loading"><img src="./images/loading.gif" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-col col-sm-3">
+                            <div class="sidebar">
+                                <div class="side-item">
+                                    <img src="./images/tichamp.jpg" alt="">
+                                </div>
+                                <div class="side-item">
+                                    <img src="./images/battlepass.jpg" alt="">
+                                </div>
+                                <div class="side-item">
+                                    <img src="./images/700.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                Group 13 - TKDH
+            </div>
+        </div>
+    </div>
+	<script>
+	
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("id-header");
+	var defHeight = header.offsetHeight;
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		header.classList.add("sticky");
+		var wrapper = document.getElementById("stick-wrapper").setAttribute("style","height:"+defHeight+"px;");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+	</script>
+</body>
+</html>

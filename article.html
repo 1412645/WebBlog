@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dota 2</title>
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-banner clearfix">
+            <div class="float-left copyright">
+                <span class="cpy-item"><img src="./images/valve_white.png" alt="Valve logo"></span>
+                <span class="cpy-item"><img src="./images/steam_white.png" alt="Steam logo"></span>
+            </div>
+            <div class="float-right customer">
+                <span class="top-link"><a href="#">Support</a></span>
+                <span class="top-link"><a href="./login.html">Login</a></span>
+            </div>
+        </div>
+        <div id="stick-wrapper">
+			<div class="header" id="id-header">
+				<div class="main-head">
+					<div class="container relative">
+						<div class="row">
+							<div class="logo col-sm-4"><a href="#"><img src="./images/dota-logo.png" alt="Dota2 Logo"></a></div>
+							<div class="search-form form-inline col-sm-4"><i class="fa fa-search"></i> <input type="text" class="form-control"></div>
+							<div class="playnow-btn col-sm-4"><a href="./download.html"><img src="./images/getdota.jpg" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-nav menu">
+					<div class="container">
+						<ul>
+							<li><a href="./index.html">News</a></li>
+							<li><a href="">Store</a></li>
+							<li><a href="">Heropedia</a></li>
+							<li><a href="">Tournament</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="main">
+            <div class="article">
+                <div class="article-image">
+                    <img src="./images/ti8.png" alt="">
+                </div>
+                <div class="article-main">
+                    <div class="container">
+                        <div class="article-title">
+                            <h2>The International 2018 Tickets and Venue</h2>
+                            <span class="article-meta">March 15, 2018 - Dota Team</span>
+                        </div>
+                        <div class="article-content">
+                            <p>
+                                For the first time ever, the battle for the Aegis of Champions will be waged on Canadian soil, as The International Dota 2 Championships invite the world’s top Dota teams to face off at Rogers Arena in Vancouver, British Columbia on Monday, August 20th through Saturday, August 25th.
+                                <br>
+                                <br>
+                                Tickets sales begin on Friday, March 23 at 10:00 AM and 10:00 PM PDT, with two ticket types available. The Midweek ticket—available for $125 CAD—will grant attendance to the first four days of the event, August 20th – 23rd. The Finals ticket—available for $250 CAD—will grant access to the last two days, August 24th and 25th.
+                                <br>
+                                <br>
+                                Check out the Ticketing FAQ here for more information.
+                                <br>
+                                <br>
+                                Tickets will be available via Ticketmaster.ca. We recommend that you prepare your Ticketmaster account and log in before tickets go on sale to help ensure a smooth purchasing experience. If you are unsure when tickets will go on sale in your time zone, please use this time zone converter.
+                                <br>
+                                <br>
+                                <b>Seattle:</b> March 23rd at 10AM and 10PM
+                                <br>
+                                <b>Rio de Janeiro:</b> March 23rd at 2PM and March 24th at 2AM
+                                <br>
+                                <b>London:</b> March 23rd at 5PM and March 24th at 5AM
+                                <br>
+                                <b>Berlin:</b> March 23rd at 6PM and March 24th at 6AM
+                                <br>
+                                <b>Moscow:</b> March 23rd at 8PM and March 24th at 8AM
+                                <br>
+                                <b>Beijing:</b> March 24th at 1AM and 1PM
+                                <br>
+                                <b>Singapore:</b> March 24th at 1AM and 1PM
+                                <br>
+                                <b>Seoul:</b> March 24th at 2AM and 2PM
+                                <br>
+                                <b>Sydney:</b> March 24th at 4AM and 4PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                Group 13 - TKDH
+            </div>
+        </div>
+    </div>
+	<script>
+	
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("id-header");
+	var defHeight = header.offsetHeight;
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		header.classList.add("sticky");
+		var wrapper = document.getElementById("stick-wrapper").setAttribute("style","height:"+defHeight+"px;");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+body {
+    background: #111;
+}
+
+.main {
+    background: #000;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #ccc;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-banner {
+    background: #151515;
+    padding: 5px 10px;
+}
+
+.top-banner .cpy-item img {
+    max-height: 35px;
+}
+
+.main-head {
+    padding: 15px 0;
+    background: #111;
+    border-bottom: 1px solid #212529;
+}
+
+.logo img {
+    width: 250px;
+}
+
+span.top-link {
+    border-right: 1px solid #999;
+    padding: 0 10px;
+}
+
+span.top-link:last-child {
+    border: none;
+}
+
+span.top-link a {
+    color: white;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.7em;
+}
+
+.sub-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.sub-nav {
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+.menu ul:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 90%;
+    background: #212529;
+    margin: 0 auto;
+}
+
+.menu li {
+    border-right: 1px solid #212529;
+}
+
+.menu li:last-child {
+    border: none;
+}
+
+.post-item {
+    color: white;
+}
+
+.post-thumb img {
+    max-width: 100%;
+}
+
+.side-item {
+    margin: 5px 0;
+}
+
+.side-item img {
+    max-width: 100%;
+}
+
+.post-loading {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.post-item:after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: #614848;
+    margin: 10px auto;
+}
+
+.footer {
+    background: #111;
+    margin-top: 20px;
+    color: white;
+}
+
+.ft-banner {
+    height: 500px;
+}
+
+.featured {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.featured .nav .fa {
+    color: #ccc;
+}
+
+.featured .nav .fa:hover {
+    color: #fff;
+}
+
+.featured .nav .nav-next, .featured .nav .nav-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.featured .nav .nav-next {
+    right: 10px;
+}
+
+.featured .nav .nav-prev {
+    left: 10px;
+}
+
+.banner-caption {
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-align: right;
+    right: 0;
+    background: rgba(0,0,0,.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    max-width: 45%;
+}
+
+.banner-title {
+    font-size: 2.5em;
+    text-shadow: 0 0 20px black;
+}
+
+.banner-readmore {
+    margin-top: 10px;
+}
+
+.banner-readmore a {
+    color: white;
+    font-weight: bold;
+}
+
+.playnow-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-form .fa {
+    color: white;
+    padding-right: 15px;
+}
+
+.article-image img {
+    width: 100%;
+}
+
+.article-image {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.article-title h2 {
+    color: white;
+    font-size: 3em;
+}
+
+.article-main {
+    padding: 20px 0 20px;
+}
+
+.article-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.article-title .article-meta {
+    color: silver;
+}
+
+.article-content {
+	background: #333;
+}
+
+.article-content p {
+	font-size: 25px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.half-col {
+    color: white;
+    padding: 50px;
+    position: relative
+}
+
+.half-col:first-child:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 50%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #212529;
+    position: absolute;
+}
+
+.steam-button {
+	width: 70%;
+	border: 5px;
+	border-color: white;
+}
+
+
+.sticky {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 100;
+	background: #111;
+}
+
+.sticky + .main {
+	padding-top: 102px;
+}
+
+.sticky  .menu ul {
+    display: inline-block;
+	background: #111;
+}
+
+.btn-action {
+    font-weight: bold;
+}
+
+.btn-action:hover {
+    color: blue;
+}

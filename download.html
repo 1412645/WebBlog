@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dota 2</title>
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-banner clearfix">
+            <div class="float-left copyright">
+                <span class="cpy-item"><img src="./images/valve_white.png" alt="Valve logo"></span>
+                <span class="cpy-item"><img src="./images/steam_white.png" alt="Steam logo"></span>
+            </div>
+            <div class="float-right customer">
+                <span class="top-link"><a href="#">Support</a></span>
+                <span class="top-link"><a href="./login.html">Login</a></span>
+            </div>
+        </div>
+        <div id="stick-wrapper">
+			<div class="header" id="id-header">
+				<div class="main-head">
+					<div class="container relative">
+						<div class="row">
+							<div class="logo col-sm-4"><a href="#"><img src="./images/dota-logo.png" alt="Dota2 Logo"></a></div>
+							<div class="search-form form-inline col-sm-4"><i class="fa fa-search"></i> <input type="text" class="form-control"></div>
+							<div class="playnow-btn col-sm-4"><a href="./download.html"><img src="./images/getdota.jpg" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="main-nav menu">
+					<div class="container">
+						<ul>
+							<li><a href="./index.html">News</a></li>
+							<li><a href="">Store</a></li>
+							<li><a href="">Heropedia</a></li>
+							<li><a href="">Tournament</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="main">
+            <div class="main-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="post-list">
+                                <div class="post-item row">
+                                    <div class="post-content col-sm-10">
+                                        <div class="post-caption">
+											</br>
+                                            <h1>Want to play DotA2? Follow the steps below</h1>
+											</br>
+                                        </div>
+                                    </div>
+                                    <div class="post-thumb col-sm-2 align-self-center">
+                                    </div>
+                                </div>
+                                <div class="post-item row">
+                                    <div class="post-thumb col-sm-1 align-self-center">
+                                        <p><font size="10">1</font></p>
+                                    </div>
+                                    <div class="post-content col-sm-9">
+                                        <div class="post-caption">
+											</br>
+                                            <h2>Get <b>Steam</b> first!</h2>
+                                            <span class="post-meta"><font size="2">Click the <b>Steam</b> button on the right</font></span>
+                                        </div>
+                                        <div class="post-except"><font size="4"><p>You need <b>Steam</b> to manage your DotA2 account as well as download the game</font></p></div>
+                                    </div>
+									<div class="post-thumb col-sm-2 align-self-center">
+										<a href="http://store.steampowered.com/about/"><input type="image" src="./images/steam-button.png" class="steam-button"/></a>
+									</div>
+                                </div>
+								<div class="post-item row">
+                                    <div class="post-thumb col-sm-1 align-self-center">
+                                        <p><font size="10">2</font></p>
+                                    </div>
+                                    <div class="post-content col-sm-9">
+                                        <div class="post-caption">
+											</br>
+                                            <h2>Now you can get the game</h2>
+                                            <span class="post-meta"><font size="2">Click the logo on the right</font></span>
+                                        </div>
+                                        <div class="post-except"><font size="4"><p>After getting <b>Steam</b>, you need to access the store page and press <b><i>Play the game</i></b></font></p></div>
+                                    </div>
+									<div class="post-thumb col-sm-2 align-self-center">
+										<a href="http://store.steampowered.com/app/570/Dota_2/"><input type="image" src="./images/single-logo.png" class="steam-button"/></a>
+									</div>
+                                </div>
+								<div class="post-item row">
+                                    <div class="post-thumb col-sm-1 align-self-center">
+                                        <p><font size="10">!?</font></p>
+                                    </div>
+                                    <div class="post-content col-sm-11">
+                                        <div class="post-caption">
+											</br>
+                                            <h2>Still confused? Watch a simple guide below</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="align-self-center">
+                                    <iframe width="100%" height="720" src="https://www.youtube.com/embed/LV1ZV_DG3kI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                Group 13 - TKDH
+            </div>
+        </div>
+    </div>
+	<script>
+	
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("id-header");
+	var defHeight = header.offsetHeight;
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		header.classList.add("sticky");
+		var wrapper = document.getElementById("stick-wrapper").setAttribute("style","height:"+defHeight+"px;");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+	</script>
+</body>
+</html>
